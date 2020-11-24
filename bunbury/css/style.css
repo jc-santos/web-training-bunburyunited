@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1rem;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+/** Header **/
+
+nav.header-nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+nav.header-nav li {
+    display: inline;
+}
+nav.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+}
+
+
+.main-header {
+    background-color: red;
+    position: relative;
+    color: white;
+    text-align: center;
+    border: red 1px solid;
+} 
+.main-header h1 {
+    text-shadow: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.main-header span {
+    font-size: 9px;
+}
+.main-header p {
+    padding: 20px;
+    background-color: rgb(190, 8, 8);
+    margin: 0px;
+    border-top: 2px solid rgb(116, 6, 6);
+}
+.btn {
+    background-color: rgb(15, 207, 89);
+    padding: 0 2px;
+    margin: 0;
+    text-align: end;
+    border: 0;
+}
+.main-header > .img-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: 1;
+}
+
+
+
+/** Section **/
+
+/** Showcase **/
+#showcase {
+    background: linear-gradient(#000,#222,#444);
+    border-bottom: 4px solid rgba(255, 0, 0, 0.897);
+}
+.section-nav ul{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 0px 5rem;
+    display: flex;
+}
+.section-nav li {
+    display: inline;
+}
+.section-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar #searchbar {
+    float: inline-end;
+    margin: 0;
+    padding: 2px;
+    background-color: #333;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 2px;
+} 
+
+/** Highlights **/
+#highlights {
+    background: linear-gradient(black,rgb(21, 128, 0),lime,green);
+    background-size: inherit;
+    padding: 0px 80px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+}
+.main-section {
+    background-color: black;
+    color: #f3f3f3;
+    padding: 15px;
+    height: 100%;
+    flex: left;
+    width: 70%;
+}
+.main-section h3 {
+    background: linear-gradient(-35deg,#333, #222, #111);
+    color: seagreen;
+    padding: 5px 10px;
+    border-left: seagreen 4px solid;
+    font-size: 18px;
+    font-weight: lighter;
+}
+blockquote {
+    font-style: italic;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    line-height: 1.5rem;
+}
+
+.sidebar {
+    background-color: #444;
+    color: white;
+    padding: 5px 10px;
+    flex: right;
+    width: 30%;
+}
+.sidebar h3 {
+    background: linear-gradient(-35deg,#333, #222, #111);
+    color: seagreen;
+    padding: 5px 10px;
+    border-left: seagreen 4px solid;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/** Newsletter **/
+#newsletter {
+    background-color: rgb(27, 179, 72);
+    color: white;
+    align-content: center;
+    text-align: left;
+    justify-content: left;
+    padding: 1.5rem 6rem;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/** Sponsons **/
+
+#sponsors {
+    background-color: #f4f4f4;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+/** Contacts **/
+
+#contacts .section-col{
+    background-color: red;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.8rem;
+    font-size: 9px;
+    border-top: 1px solid black;
+    padding: 10px 5rem;
+    align-content: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+.section-col > #img-logo {
+    width: 80%;
+}
+#contacts #address {
+    line-height: 0.9rem;
+    justify-content: left;
+}
+#contacts #findus li {
+    display: inline;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+#contacts li {
+    line-height: 0.9rem;
+}
+
+#contacts a {
+    color: white;
+    text-decoration: none;
+}
+
+/** Footer **/
+
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: red;
+    padding: 5px 30px;
+    color: white;
+    font-size: 12px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
